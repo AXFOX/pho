@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           - 使用 Material 3 风格
           - 通过种子颜色生成 ColorScheme
         */
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 202, 234, 163)),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Pho demo home page'), // 设置主页
